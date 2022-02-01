@@ -21,20 +21,21 @@ html {
   padding: 31px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
+}
 
+.site-header h1 {
+  font-size: 26px;
 }
 
 .site-header em {
   color: #2afca6;
   font-weight: 100;
   font-family: 'Montserrat', sans-serif;
-
 }
-
 
 body {
   max-width: 320px;
-  margin: 30px;
+  margin: 28px 0 28px 28px;
 }
 
 footer {
@@ -45,6 +46,8 @@ footer {
 
 article {
   background-color: white;
+  padding: 30px;
+  margin: 16px 0;
 }
 
 img {
