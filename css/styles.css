@@ -9,15 +9,46 @@
 
 
 html {
-  scroll-behavior: smooth;
   margin: 19px 26px 18px 27px;
+  scroll-behavior: smooth;
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  border: solid white 2px;
+  background-image: url("../img/ligne-code.jpg");
+  color: white;
+  padding: 56px 30px 50px;
+}
+
+header em {
+  color: #2afca6;
+  font-weight:100;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 body {
   max-width: 320px;
-  margin: auto;
+  margin: 30px;
+}
+
+footer {
+  color: white;
+  border: solid 2px #2afca6;
+  text-align: center;
+}
+
+article {
+  background-color: white;
+}
+
+img {
+  height: auto;
+  width: 100%;
 }
 
 .qui {
   background-color: #2afca6;
+  color: #0a533b;
 }
