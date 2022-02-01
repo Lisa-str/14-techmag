@@ -9,17 +9,21 @@
 
 
 html {
-  margin: 19px 26px 18px 27px;
   scroll-behavior: smooth;
   background-color: black;
   font-family: 'Open Sans', sans-serif;
 }
 
-header {
+.site-header {
   border: solid white 2px;
   background-image: url("../img/ligne-code.jpg");
   color: white;
-  padding: 56px 30px 50px;
+  padding: 31px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
 }
 
 header em {
@@ -48,7 +52,7 @@ img {
   width: 100%;
 }
 
-.qui {
+.presentation {
   background-color: #2afca6;
   color: #0a533b;
 }
