@@ -1,13 +1,23 @@
 /*
   font-family: 'Montserrat', sans-serif; 100it/800
   font-family: 'Open Sans', sans-serif; 400/400it/700/700it
+
+  font-family: 'Montserrat Alternates', sans-serif;
+
+  font-family: 'Open Sans', sans-serif;
 */
+
 
 html {
   scroll-behavior: smooth;
+  margin: 19px 26px 18px 27px;
 }
 
 body {
   max-width: 320px;
   margin: auto;
+}
+
+.qui {
+  background-color: #2afca6;
 }
