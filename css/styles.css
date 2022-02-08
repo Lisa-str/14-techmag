@@ -25,6 +25,12 @@ html {
 
 .site-header h1 {
   font-size: 26px;
+  margin: 21px 0;
+}
+
+.site-header p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
 .site-header em {
@@ -35,13 +41,7 @@ html {
 
 body {
   max-width: 320px;
-  margin: 28px 0 28px 28px;
-}
-
-footer {
-  color: white;
-  border: solid 2px #2afca6;
-  text-align: center;
+  margin: 20px 0 28px 28px;
 }
 
 article {
@@ -58,4 +58,18 @@ img {
 .presentation {
   background-color: #2afca6;
   color: #0a533b;
+  padding: 19px 30px 34px;
+  margin: 20px;
+}
+
+main h1 {
+  font-size: medium;
+  font-weight: 100;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+  color: white;
+  border: solid 2px #2afca6;
+  text-align: center;
 }
