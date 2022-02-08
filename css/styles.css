@@ -59,9 +59,14 @@ img {
 .presentation {
   background-color: #2afca6;
   color: #0a533b;
-  padding: 19px 30px 34px;
-  margin: 20px;
+  padding: 19px 30px 26px;
+  margin: 20px 0;
 }
+
+.presentation p {
+  margin: 20px 0;
+}
+
 
 main h1 {
   font-size: medium;
