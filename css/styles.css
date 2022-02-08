@@ -79,9 +79,10 @@ article header p {
 
 figure {
   margin: 0;
+  box-shadow: 1px 1px 10px black;
 }
 
-figcaption {
+figcaptiont {
   margin-bottom: 34px;
 }
 
@@ -121,4 +122,5 @@ footer {
 
 footer p {
   margin: 16px 0;
+  font-size: xx-small;
 }
