@@ -18,7 +18,7 @@ html {
   border: solid white 2px;
   background-image: url("../img/ligne-code.jpg");
   color: white;
-  padding: 30px;
+  padding: 31px 30px 30px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
 }
@@ -31,7 +31,7 @@ html {
 .site-header p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  margin: 20px 0;
+  margin: 21px 0;
 }
 
 .site-header em {
@@ -48,12 +48,17 @@ body {
 .presentation {
   background-color: #2afca6;
   color: #0a533b;
-  padding: 19px 30px 26px;
+  padding: 29px;
   margin: 20px 0;
 }
 
 .presentation p {
-  margin: 20px 0;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.presentation h1 {
+  margin: 0;
 }
 
 article {
@@ -72,10 +77,13 @@ article header p {
   margin: 20px 0 16px;
 }
 
-article p {
-  margin: 0 0;
+figure {
+  margin: 0;
 }
 
+figcaption {
+  margin-bottom: 34px;
+}
 
 .date {
   color: black;
@@ -85,19 +93,32 @@ article p {
   color: #2afca6;
 }
 
-img {
-  height: auto;
-  width: 100%;
-}
-
 main h1 {
   font-size: medium;
   font-weight: 100;
   font-family: 'Montserrat', sans-serif;
 }
 
+.button a {
+  background-color: #444444;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8px;
+  padding: 6px 10px;
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
 footer {
   color: white;
   border: solid 2px #2afca6;
   text-align: center;
+}
+
+footer p {
+  margin: 16px 0;
 }
