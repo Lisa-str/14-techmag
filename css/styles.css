@@ -45,17 +45,6 @@ body {
   margin: 20px 0 28px 28px;
 }
 
-article {
-  background-color: white;
-  padding: 30px;
-  margin: 16px 0;
-}
-
-img {
-  height: auto;
-  width: 100%;
-}
-
 .presentation {
   background-color: #2afca6;
   color: #0a533b;
@@ -67,6 +56,39 @@ img {
   margin: 20px 0;
 }
 
+article {
+  background-color: white;
+  padding: 30px;
+  margin: 21px 0;
+}
+
+article header h1 {
+  margin: 0;
+}
+
+article header p {
+  color: #b3b3b3;
+  font-size: 12px;
+  margin: 20px 0 16px;
+}
+
+article p {
+  margin: 0 0;
+}
+
+
+.date {
+  color: black;
+}
+
+.author {
+  color: #2afca6;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
 
 main h1 {
   font-size: medium;
