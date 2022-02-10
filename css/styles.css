@@ -76,6 +76,10 @@ article header p {
   margin: 18px 0 16px;
 }
 
+article p {
+  margin: 19px 0;
+}
+
 figure {
   margin: 0;
   box-shadow: 0 0 10px #0000003b;
@@ -85,6 +89,7 @@ figcaption {
   margin-bottom: 34px;
   padding: 10px;
   font-size: 12px;
+  margin-bottom: 28px;
 }
 
 .date {
